@@ -11,8 +11,6 @@ require("dotenv").config();
 const feedRoutes = require("./routes/feed");
 const authRoutes = require("./routes/auth");
 
-console.log(process.env.PORT);
-
 const MONGODB_URI = process.env.MONGODB_URL;
 
 const app = express();
